@@ -9,8 +9,8 @@ const Digitalmarketing = () => {
                 <div>
                     <h2 className='font-pop text-[30px] text-center md:text-[42px] font-bold leading-[46px] md:my-5'>Digital Marketing</h2>
                 </div>
-                <div className='flex justify-between flex-wrap mt-[80px] md:px-[100px]'>
-                    <div className='w-[400px] bg-[#faf0f0] pb-5 rounded-[15px]'>
+                <div className='flex justify-between gap-3 flex-wrap mt-[80px] md:px-[100px]'>
+                    <div className='w-[350px] bg-[#faf0f0] pb-5 rounded-[15px]'>
                         <img className='rounded-t-[15px]' src="assets/gd.jpg" alt="gd.jpg" />
                         <div className='p-[10px]'>
                             <h3 className=''>প্রফেশনাল গ্রাফিক ডিজাইন</h3>
@@ -30,7 +30,7 @@ const Digitalmarketing = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[400px] bg-[#faf0f0] pb-5 rounded-[15px]'>
+                    <div className='w-[350px] bg-[#faf0f0] pb-5 rounded-[15px]'>
                         <img className='rounded-t-[15px]' src="assets/gd.jpg" alt="gd.jpg" />
                         <div className='p-[10px]'>
                             <h3 className=''>প্রফেশনাল গ্রাফিক ডিজাইন</h3>
@@ -50,7 +50,7 @@ const Digitalmarketing = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[400px] bg-[#faf0f0] pb-5 rounded-[15px]'>
+                    <div className='w-[350px] bg-[#faf0f0] pb-5 rounded-[15px]'>
                         <img className='rounded-t-[15px]' src="assets/gd.jpg" alt="gd.jpg" />
                         <div className='p-[10px]'>
                             <h3 className=''>প্রফেশনাল গ্রাফিক ডিজাইন</h3>

@@ -4,7 +4,7 @@ const Payment = () => {
     return (
         <div className='max-w-container mx-auto my-10'>
             <div>
-                <h2 className='font-pop text-[25px] text-center md:text-[42px] font-bold leading-[46px] md:my-5'>Our Payment sent money</h2>
+                <h2 className='font-pop text-[25px] text-center md:text-[42px] font-bold leading-[46px] md:my-5'>Our Payment System</h2>
             </div>
             <div className='flex md:justify-around gap-5 justify-between flex-wrap'>
                 <div className='w-full sm:w-[330px] border-[#faf0f0] border-[3px] text-center h-[157px] rounded-[20px] bg-secondary p-[15px]'>

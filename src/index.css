@@ -2,7 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .slick-slide > div {
     margin: 10px;
 }
+
+.slick-prev {
+	background: none !important;
+}
+
+.slick-prev {
+    left: -31px;
+}
+
+.slick-prev::before {
+	content: '←';
+	color: red;
+	font-size: 40px;
+}
+.slick-next {
+	background: none !important;
+}
+
+.slick-next {
+    right: -10px;
+}
+
+.slick-next::before {
+	content: '→';
+	color: red;
+	font-size: 40px;
+}
+
+
+
+
 

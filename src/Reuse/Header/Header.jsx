@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa6";
 
 const Header = () => {
     return (
-        <div className='bg-primary py-4 px-1 pl-2 leading-10'>
+        <div className='bg-primary md:py-2 px-1 pl-2 leading-10'>
             <div className='max-w-container mx-auto'>
                 <div className='md:flex md:justify-between text-secondary'>
                     <div className='sm:flex gap-x-[20px] text-[20px]'>
