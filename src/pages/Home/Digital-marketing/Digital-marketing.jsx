@@ -11,7 +11,7 @@ const Digitalmarketing = () => {
                 </div>
                 <div className='flex justify-between gap-3 flex-wrap mt-[80px] md:px-[100px]'>
                     <div className='w-[350px] bg-[#faf0f0] pb-5 rounded-[15px]'>
-                        <img className='rounded-t-[15px]' src="assets/gd.jpg" alt="gd.jpg" />
+                        <img className='rounded-t-[15px]' src="assets/digital_marketing/dg1.jpg" alt="gd.jpg" />
                         <div className='p-[10px]'>
                             <h3 className=''>প্রফেশনাল গ্রাফিক ডিজাইন</h3>
                             <div className='flex gap-x-3 items-center my-[10px]'>
@@ -30,8 +30,9 @@ const Digitalmarketing = () => {
                             </div>
                         </div>
                     </div>
+                    
                     <div className='w-[350px] bg-[#faf0f0] pb-5 rounded-[15px]'>
-                        <img className='rounded-t-[15px]' src="assets/gd.jpg" alt="gd.jpg" />
+                        <img className='rounded-t-[15px]' src="assets/digital_marketing/dg2.jpg" alt="gd.jpg" />
                         <div className='p-[10px]'>
                             <h3 className=''>প্রফেশনাল গ্রাফিক ডিজাইন</h3>
                             <div className='flex gap-x-3 items-center my-[10px]'>
@@ -50,8 +51,9 @@ const Digitalmarketing = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className='w-[350px] bg-[#faf0f0] pb-5 rounded-[15px]'>
-                        <img className='rounded-t-[15px]' src="assets/gd.jpg" alt="gd.jpg" />
+                        <img className='rounded-t-[15px]' src="assets/digital_marketing/dg3.jpg" alt="gd.jpg" />
                         <div className='p-[10px]'>
                             <h3 className=''>প্রফেশনাল গ্রাফিক ডিজাইন</h3>
                             <div className='flex gap-x-3 items-center my-[10px]'>
