@@ -26,7 +26,7 @@ const Web = () => {
                             </div>
                             <div className='flex justify-between'>
                                 <button className='p-[6px] rounded-[5px] hover:bg-secondary hover:text-primary bg-primary text-secondary font-pop font-bold text-[15px]'>বিস্তারিত</button>
-                                <button className='p-[6px] rounded-[5px] hover:bg-secondary hover:text-primary bg-primary text-secondary font-pop font-bold text-[15px]'><link to="./graphics">অর্ডার করুন</link></button>
+                                <button className='p-[6px] rounded-[5px] hover:bg-secondary hover:text-primary bg-primary text-secondary font-pop font-bold text-[15px]'>অর্ডার করুন</button>
                             </div>
                         </div>
                     </div>
