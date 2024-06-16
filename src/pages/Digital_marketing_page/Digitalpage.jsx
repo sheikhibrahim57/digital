@@ -1,10 +1,19 @@
 import React from 'react'
+import Header from '../../Reuse/Header/Header'
+import Navbar from '../../Reuse/Navbar/Navbar'
+import Payment from '../../Reuse/Payment/Payment'
+import Footer from '../../Reuse/Footer/Footer'
+import Endpart from '../../Reuse/Endpart/Endpart'
 import { FaStar } from "react-icons/fa";
 import { FaStarHalf } from "react-icons/fa";
 
-const Digitalmarketing = () => {
+const Digitalpage = () => {
     return (
         <div>
+            <div className='md:visible invisible h-0 md:h-auto '>
+                <Header />
+            </div>
+            <Navbar />
             <div className='max-w-container mx-auto py-10'>
                 <div>
                     <h2 className='font-pop text-[30px] text-center md:text-[42px] font-bold leading-[46px] md:my-5'>Digital Marketing</h2>
@@ -74,8 +83,11 @@ const Digitalmarketing = () => {
                     </div>
                 </div>
             </div>
+            <Payment />
+            <Footer />
+            <Endpart />
         </div>
     )
 }
 
-export default Digitalmarketing
+export default Digitalpage
