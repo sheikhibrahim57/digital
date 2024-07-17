@@ -4,17 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import PrevArrows from "../../../Compnents/PrevArrows";
 import NextArrows from "../../../Compnents/NextArrows";
+import { Link } from "react-router-dom";
 
 const Sliderone = () => {
-  // var settings = {
-  //     dots: true,
-  //     infinite: true,
-  //     speed: 500,
-  //     slidesToShow: 6,
-  //     slidesToScroll: 1,
-  //     nextArrow: <Arrow />,
-  //     prevArrow: <Arrow />,
-  // };
   var settings = {
     dots: false,
     infinite: false,
@@ -56,24 +48,25 @@ const Sliderone = () => {
     <div className="max-w-container mx-[40px] md:mx-auto my-10">
       <div className="md:mx-7">
         <Slider {...settings}>
-          <div className="w-[150px] border-[#faf0f0] border-[3px] text-center h-[157px] rounded-[20px] bg-secondary p-[15px]">
+          <Link to="/graphic" className="w-[150px] border-[#faf0f0] border-[3px] text-center h-[157px] rounded-[20px] bg-secondary p-[15px]">
             <img className="m-auto pt-[20px]" src="assets/gd.png" alt="" />
             <h2 className="pt-[16px] font-pop font-bold text-[18px] leading-6">
               Graphic & Multimedia
             </h2>
-          </div>
-          <div className="w-[200px] border-[#faf0f0] border-[3px] text-center h-[157px] rounded-[20px] bg-secondary p-[15px]">
+          </Link>
+
+          <Link to="/web&soft" className="w-[200px] border-[#faf0f0] border-[3px] text-center h-[157px] rounded-[20px] bg-secondary p-[15px]">
             <img className="m-auto pt-[20px]" src="assets/wd.png" alt="" />
             <h2 className="pt-[16px] font-pop font-bold text-[18px] leading-6">
               Web & Software
             </h2>
-          </div>
-          <div className="w-[200px] border-[#faf0f0] border-[3px] text-center h-[157px] rounded-[20px] bg-secondary p-[15px]">
+          </Link>
+          <Link to="/digital" className="w-[200px] border-[#faf0f0] border-[3px] text-center h-[157px] rounded-[20px] bg-secondary p-[15px]">
             <img className="m-auto pt-[20px]" src="assets/dm.png" alt="" />
             <h2 className="pt-[16px] font-pop font-bold text-[18px] leading-6">
               Digital Marketing
             </h2>
-          </div>
+          </Link>
           <div className="w-[200px] border-[#faf0f0] border-[3px] text-center h-[157px] rounded-[20px] bg-secondary p-[15px]">
             <img className="m-auto pt-[20px]" src="assets/net.png" alt="" />
             <h2 className="pt-[16px] font-pop font-bold text-[18px] leading-6">

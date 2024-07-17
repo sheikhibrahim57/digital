@@ -9,6 +9,7 @@ import {
 import Home from './pages/Home/Home.jsx';
 import Graphic from './pages/Graphics_page/Graphics.jsx';
 import Digitalpage from './pages/Digital_marketing_page/Digitalpage.jsx';
+import Websoftware from './pages/Web&software_page/Websoftware.jsx';
 
 
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/digital",
     element: <Digitalpage/>,
+  },
+  {
+    path: "/web&soft",
+    element: <Websoftware/>,
   },
  
   {

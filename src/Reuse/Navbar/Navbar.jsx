@@ -27,13 +27,13 @@ const Navbar = () => {
 
             <div>
               <ul
-                className={`md:flex py-2 md:gap-x-2 lg:gap-x-5 text-secondary bg-primary md:bg-opacity-0 z-10 justify-end duration-300 font-pop font-semibold text-bold text-center absolute md:static w-full top-[-160px] ${
+                className={`md:flex py-2 md:gap-x-2 lg:gap-x-5 text-secondary bg-black md:bg-opacity-0 z-10 justify-end duration-300 font-pop font-semibold text-bold text-center absolute md:static w-full top-[-160px] ${
                   show
                     ? "top-[65px] md:top-[210px] w-full left-0"
                     : "top-[-200px] left-0"
                 }`}
               >
-                <li className="hover:bg-primary rounded-[5px]">
+                <li className="hover:border-[#faf0f0] hover:border-[0.01px] rounded-[5px]">
                   <NavLink to="/">
                     Home
                   </NavLink>
@@ -42,7 +42,7 @@ const Navbar = () => {
                   <a href="#">Our Service</a>
                 </li>
                 <li className="hover:bg-primary rounded-[5px]">
-                  <a href="#">About</a>
+                  <a href="#">About Us</a>
                 </li>
                 <li className="hover:bg-primary rounded-[5px]">
                   <a href="#">Working Site</a>

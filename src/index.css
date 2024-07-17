@@ -11,7 +11,7 @@
 }
 
 .slick-prev {
-  left: -47px !important;
+  left: -39px !important;
 }
 
 .slick-prev::before {
@@ -24,7 +24,7 @@
 }
 
 .slick-next {
-  right: -30px !important;
+  right: -22px !important;
 }
 
 .slick-next::before {
